@@ -1,0 +1,162 @@
+#container {
+   font-family: "League Spartan", sans-serif;
+  margin: 70px 20px;
+}
+
+#text-content h3 {
+  text-align: center;
+  font-size: 50px;
+  color:#502050;
+  font-weight: 700;
+}
+#text-content p {
+  text-align: center;
+  font-size: 20px;
+  color:#937b92;
+  font-weight: 400;
+  margin-top: 20px;
+}
+ 
+#review {
+  height: 200px;
+    width: auto;
+  margin: 40px 20px 80px 20px;
+}
+.rev {
+  margin: 20px ;
+  background-color:#f7f2f7 ;
+  border-radius:10px;
+  width: auto ;
+   text-align: center;
+  height: 65px;
+}
+.rev img {
+    margin-top: 7px;
+}
+.rev p {
+  margin-top: 10px;
+   text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color:#502050;
+}
+
+.comments {
+  border-radius:20px;
+  height: 300px;
+  width: auto;
+  margin:  40px 20px ;
+  padding: 40px;
+  background-color:#502050 ;
+}
+.profile {
+    display: flex;
+ 
+}
+.profile img {
+    border-radius: 50%;
+    size: 20px;
+} 
+.profile h4,.profile p {
+    margin: 10px 25px 0 20px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    font-weight: 600;
+}
+.profile p {
+    color:#ee68a4;
+}
+.text p {
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+@media (min-width: 576px) {
+  #container {
+    width: 1440px;
+  }
+
+  #top-context {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 150px 0 150px;
+  }
+
+  #text-content {
+    flex-basis: 35%;
+    text-align: left;
+  }
+  #text-content h3 ,#text-content p {
+    text-align: left;
+    margin:15px;
+  }
+
+  #bottom-context {
+    display: flex;
+    margin:  50px 150px;
+    padding-top: 50px;
+  }
+
+  #review {
+    flex-basis: 50%;
+     margin: 0;
+     width: auto;
+     height: 270px;
+  }
+  .rev {
+    display:flex;
+  }
+  .rev img {
+    margin-top: 23px;
+  }
+  .rev p {
+    margin: 23px 0 0 15px;
+    text-align: left;
+    font-size: 20px;
+  }
+  .first-star {
+    padding-left:10px ;
+  }
+   
+  #review-1 {
+    width: 400px;
+  
+}
+#review-2 {
+        width: 400px;
+    margin-left: 100px;
+      
+}   
+
+#review-3 {
+     width: 400px;
+      margin-left: 200px;
+       
+}
+  .comments {
+    flex-basis: 30%;
+    margin: 0px 20px;
+  }
+  .profile h4 {
+    font-size: 25px;
+    text-align: center;
+    margin: 15px 10px 0 20px;
+  }
+  .profile p {
+    margin: 0 0 0 20px;
+     text-align: center;
+    font-size:25px;
+  }
+  #box-2 {
+    margin-top: 20px;
+  }
+
+  #box-3 {
+     margin-top: 40px;
+  }
+}
